@@ -17,9 +17,7 @@ _Comment_ Common guys! Lets DO IT!
 
 \`\`\`
 module.exports = {
-  HEROKU_URL: process.env.HEROKU_URL,
-  PORT: process.env.PORT,
-  TOKEN: process.env.TOKEN
+  Some code example
 };
 \`\`\``, {parse_mode: 'Markdown'});
 });
