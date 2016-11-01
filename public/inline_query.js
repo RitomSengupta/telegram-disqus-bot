@@ -17,7 +17,12 @@ bot.on('inline_query', (inlineQuery) => {
 
     return item;
   });
+  
+  const options = {
+    cache_time: 1,
+    next_offset: ''
+  }
 
 
-  bot.answerInlineQuery(inlineQuery.id, results);
+  bot.answerInlineQuery(inlineQuery.id, results, options);
 });
