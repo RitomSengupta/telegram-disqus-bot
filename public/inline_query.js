@@ -19,7 +19,7 @@ bot.on('inline_query', (inlineQuery) => {
   });
   
   const options = {
-    cache_time: 1,
+    cache_time: 0,
     next_offset: ''
   }
 
